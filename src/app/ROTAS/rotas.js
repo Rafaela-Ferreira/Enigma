@@ -20,7 +20,7 @@ module.exports = (app) => {
 
     app.get("/enigma", criptoController.exibeDadosEJS());
 
-    app.get("/enigma", criptoController.IncluirDadosEJS());
+    app.get("/incluir", criptoController.IncluirDadosEJS());
     app.get("/enigma", criptoController.editarDadosEJS());
     app.get("/enigma", criptoController.excluirDadosEJS);
 
